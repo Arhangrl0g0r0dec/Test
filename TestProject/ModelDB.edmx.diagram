@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="6c2cb1916bc948d6ad0834b883646dfc" Name="Diagram1">
+        <EntityTypeShape EntityType="StroymasterModel.Manufacturer" Width="1.5" PointX="3" PointY="9.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="StroymasterModel.Order" Width="1.5" PointX="5.25" PointY="1" IsExpanded="true" />
+        <EntityTypeShape EntityType="StroymasterModel.Order_Product" Width="1.5" PointX="7.5" PointY="1.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="StroymasterModel.Points" Width="1.5" PointX="3" PointY="5.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="StroymasterModel.Products" Width="1.5" PointX="5.25" PointY="8.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="StroymasterModel.Role" Width="1.5" PointX="0.75" PointY="1.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="StroymasterModel.User" Width="1.5" PointX="3" PointY="1" IsExpanded="true" />
+        <AssociationConnector Association="StroymasterModel.FK_Products_Manufacturer" ManuallyRouted="false" />
+        <AssociationConnector Association="StroymasterModel.FK_Order_Points" ManuallyRouted="false" />
+        <AssociationConnector Association="StroymasterModel.FK_Order_Product_Order" ManuallyRouted="false" />
+        <AssociationConnector Association="StroymasterModel.FK_Order_User" ManuallyRouted="false" />
+        <AssociationConnector Association="StroymasterModel.FK_Order_Product_Products" ManuallyRouted="false" />
+        <AssociationConnector Association="StroymasterModel.FK_User_Role" ManuallyRouted="false" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>

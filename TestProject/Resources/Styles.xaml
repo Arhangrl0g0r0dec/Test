@@ -1,0 +1,15 @@
+﻿<ResourceDictionary xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+                    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+    <Style TargetType="Button">
+        <Setter Property="Background" Value="#FF349C3D"/>
+        <Setter Property="FontFamily" Value="Comic Sans MS"/>
+        <Setter Property="FontSize" Value="16"/>
+    </Style>
+
+    <Style x:Key="mainBack">
+        <Setter Property="Control.Background" Value="#FF92D050"/>
+        <Setter Property="Control.FontFamily" Value="Comic Sans MS"/>
+        <Setter Property="Control.FontSize" Value="16"/>
+    </Style>
+
+</ResourceDictionary>
